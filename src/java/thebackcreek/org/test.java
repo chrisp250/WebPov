@@ -41,6 +41,7 @@ public class test extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet test at " + request.getContextPath() + "</h1>");
+            out.println("<textarea name=\"File\" Rows=24 Cols=80 > </textarea>");
             out.println("</body>");
             out.println("</html>");
         } finally {            
